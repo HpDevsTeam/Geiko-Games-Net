@@ -5,11 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 650px)" href="mobile.css">
+     <script src="acoes.js"></script>
 </head>
 <body>
     <header>
-        <div class="logo">
-        <img src="images/logo/logo_geiko_150.webp" alt="">
+        <div class="flexmenuoculto">
+            <div class="logo">
+                <img src="images/logo/logo_geiko_150.webp" alt="">
+                </div>
+                <div class="menuoculto">
+                    <img src="images/icons/iconmenu.png" alt="" onclick="ativarmenuoculto()">
+                </div>
+        </div>
+        <div class="menuocultor" id="s">
+            <button onclick="fecharmenumobile()">X</button>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <hr>
+                    <li><a href="">Jogos</a><span class="mais" onclick="ativarjogos()"><a href="#s">+</a></span></li>
+                    <div class="jogosmenuoculto">
+                        <ul>
+                            <li>
+                                <a href="">
+                                Celebrity Hunter
+                                </a>
+                            </li>
+                            <li><a href="">Encontros</a></li>
+                            <li><a href="">Musas</a></li>
+                            <li><a href="">Nautilus 05</a></li>
+                            <li><a href=""> Nautilus 10 (NPC)</a></li>
+                            <li><a href="">Nautilus 20</a></li>
+                            <li><a href="">Nova Fantasia Click</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <li><a href="#">Loja</a></li>
+                    <hr>
+                    <li><a href="#">Carrinho</a></li>
+                    <hr>
+                    <li><a href="#">Sobre a Geiko</a><span class="mais2" onclick="ativarsobre()"><a href="#s">+</a></span></li>
+                    <div class="sobregeiko">
+                        <ul>
+                          <li><a href="">Sobre a empresa</a></li>
+                          <li><a href="">Como os jogos são criados</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="menu">
             <nav>
@@ -23,9 +69,36 @@
                 </ul>
             </nav>
         </div>
-        <div class="banner">
-        <img src="images/banner/site_banner.webp" alt="">
+        <div class="dropdown">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                        Celebrity Hunter
+                        </a>
+                    </li>
+                    <li><a href="">Encontros</a></li>
+                    <li><a href="">Musas</a></li>
+                    <li><a href="">Nautilus 05</a></li>
+                    <li><a href=""> Nautilus 10 (NPC)</a></li>
+                    <li><a href="">Nautilus 20</a></li>
+                    <li><a href="">Nova Fantasia Click</a></li>
+                </ul>
+            </nav>
         </div>
+        <div class="dropdown2">
+            <nav>
+                <ul>
+                    <li><a href="">Sobre a empresa</a></li>
+                    <li><a href="">Como os jogos são criados</a></li>
+                  </ul>
+            </nav>
+        </div>
+        <div class="banner">
+            <a href="">
+            <img src="images/banner/site_banner.webp" alt="">
+            </a>
+            </div>
     </header>
     <main>
         <div class="subtitulo">
@@ -33,12 +106,14 @@
                 Baixe jogos adultos 🔞 de qualidade, com cenas explícitas, personagens reais, histórias maduras e escolhas que definem o enredo! Viva suas fantasias 🥵
             </h4>
         </div>
-        <div class="baixarjogos">
-            <img src="images/icons/iconfogo.png" alt="">
-            <p>
-                Baixe nossos jogos adultos grátis 🔞
-            </p>
-        </div>
+        <a href="" class="botaoir">
+            <div class="baixarjogos">
+                <img src="images/icons/iconfogo.png" alt="">
+                <p>
+                    Baixe nossos jogos adultos grátis 🔞
+                </p>
+            </div>
+        </a>
         <div class="maisjogados">
             <p>
                 Mais Jogados
@@ -73,7 +148,91 @@
           </p>
         </div>
         </div>
+        <div class="maisjogados">
+            <p>
+                8 Jogos Adultos 🔞
+            </p>
+        </div>
+        <div class="informacoes">
+            <h4>
+                A Geiko cria e publica jogos adultos de qualidade desde 2018 e atualiza seus games 3 vezes por mês. Baixe o APK grátis e venha viver essa emoção com a gente.
+            </h4>
+        </div>
+        <div class="oijogos">
+            <img src="images/oitojogos/ch.webp" alt="">
+            <img src="images/oitojogos/en.webp" alt="">
+            <img src="images/oitojogos/nfc.jpg" alt="">
+            <img src="images/oitojogos/nt05.jpg" alt="">
+            <img src="images/oitojogos/nt10.jpg" alt="">
+            <img src="images/oitojogos/nt20.webp" alt="">
+        </div>
+        <div class="atualizados">
+            <h4>
+                🔞 8 jogos desde 2018 🎮 3.500.000+ downloads
+            </h4>
+        </div>
+        <a href="" class="botaoir">
+            <div class="baixarjogos">
+                <img src="images/icons/iconfogo.png" alt="">
+                <p>
+                    Veja nossos jogos adultos 🔞
+                </p>
+            </div>
+        </a>
+        <div class="maisjogados">
+            <p>
+                Desenvolvedor Brasileiro 🎮
+            </p>
+        </div>
+        <div class="dv">
+            <h4>
+                Os jogos da Geiko são criados pelo desenvolvedor brasileiro RB, especializado em histórias imersivas e interativas, com gráficos reais e gameplay quente 🥵
+            </h4>
+        </div>
+        <div class="banner2">
+            <img src="images/banner2/geiko_banner2_960.webp" alt="">
+        </div>
+        <a href="" class="botaoir">
+            <div class="baixarjogos">
+                <img src="images/icons/iconcafe.png" alt="">
+                <p>
+                    Saiba mais sobre a Geiko
+                </p>
+            </div>
+        </a>
+        
+        <div class="maisjogados">
+            <p>
+                Novidades do Blog 📝
+            </p>
+        </div>
+        <div class="flexblog">
+            <div class="celeblog">
+               <img src="images/blog/site_ch_720-607x405.webp" alt="">
+             <h2>
+                Visual novels adultas gratuitas em português (2023) - Baixe Aqui
+             </h2>
+             <p>
+                Veja tudo >
+             </p>
+            </div>
+            <div class="na10">
+             <img src="images/blog/nt10.jpg" alt="">
+             <h2>
+                VASSILI, o primeiro mapa de Projeto Cyberpunk
+             </h2>
+             <p>
+                Veja tudo >
+             </p>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="rodape">
+            <p>
+                Geiko | Games adultos grátis para android
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

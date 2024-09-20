@@ -2,10 +2,47 @@
     margin: 0px;
     padding: 0px;
     max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .logo{
     margin: 50px;
-    text-align: center;
+}
+.flexmenuoculto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuocultor{
+    position: absolute;
+    right: 0;
+    background-color: rgb(37, 20, 20);
+    padding: 80px;
+    height: 200vh;
+    z-index: 1;
+    display: none;
+}
+.menuocultor ul{
+   list-style: none;
+}
+.menuocultor li{
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    right: 50px;
+}
+hr{
+    position: relative;
+    right: 50px;
+    margin: 20px 0px;
+}
+.mais{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+.mais2{
+    position: relative;
+    left: 140px;
+    font-size: 30px;
 }
 .menu{
     background-color: black;
@@ -20,12 +57,64 @@
     color: gray;
     text-decoration: none;
 }
+.dropdown{
+    display: none;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.dropdown ul{
+  list-style: none;
+}
+.dropdown li{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.dropdown a{
+    text-decoration: none;
+    color: red;
+}
+.dropdown2{
+    display: none;
+    background-color: black;
+    text-align: center;
+    margin: 20px 0px;
+}
+.dropdown2 ul{
+  list-style: none;
+}
+.dropdown2 li{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.dropdown2 a{
+    text-decoration: none;
+    color: red;
+}
 .banner{
     text-align: center;
     margin: 50px;
 }
+.menuoculto{
+    display: none;
+}
+.menuoculto img{
+    width: 40px;
+}
 .subtitulo{
     text-align: center;
+    margin: 0px 40px;
+}
+.botaoir{
+    color: white;
+    text-decoration: none;
 }
 .baixarjogos{
     background-color: rgba(255, 0, 0, 0.719);
@@ -62,7 +151,75 @@
 .flexitens{
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 .ch,.nt20,.nfc{
     margin: 20px;
+}
+.ch p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.nt20 p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.nfc p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.informacoes{
+    text-align: center;
+}
+.oijogos{
+    text-align: center;
+    margin: 30px 0px;
+}
+.oijogos img{
+    width: 200px;
+    margin: 20px;
+}
+.atualizados{
+    text-align: center;
+}
+.dv{
+    text-align: center;
+}
+.banner2{
+    margin: 50px;
+    text-align: center;
+}
+.flexblog{
+    display: flex;
+}
+.celeblog{
+    width: 400px;
+    margin: 20px;
+}
+.celeblog p{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.na10{
+    margin: 20px;
+    width: 400px;
+}
+.na10 p{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+.rodape p{
+    position: absolute;
+    right: 50px;
 }
