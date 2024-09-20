@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+.logo{
+    margin: 50px;
+    text-align: center;
+}
+.menu{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.menu a{
+    color: gray;
+    text-decoration: none;
+}
+.banner{
+    text-align: center;
+    margin: 50px;
+}
+.subtitulo{
+    text-align: center;
+}
+.baixarjogos{
+    background-color: rgba(255, 0, 0, 0.719);
+    display: flex;
+    width: 300px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    margin: 80px auto;
+}
+.baixarjogos p{
+    margin: auto;
+}
+.baixarjogos img{
+   width: 40px;
+}
+.maisjogados{
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+.maisjogados p{
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    bottom: 25px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+.flexitens{
+    display: flex;
+    justify-content: center;
+}
+.ch,.nt20,.nfc{
+    margin: 20px;
+}
