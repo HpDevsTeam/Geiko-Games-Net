@@ -18,6 +18,26 @@ const ativarsobre = () => {
     }
 }
 
+const dropjogosativar = () => {
+    const oi = document.querySelector(".dropdown")
+    if (oi.style.display == "none" || oi.style.display == "") {
+        oi.style.display = "block"
+    }
+    else{
+        oi.style.display = "none"
+    }
+}
+
+const dropjsobreativar = () => {
+    const oi = document.querySelector(".dropdown2")
+    if (oi.style.display == "none" || oi.style.display == "") {
+        oi.style.display = "block"
+    }
+    else{
+        oi.style.display = "none"
+    }
+}
+
 const ativarmenuoculto = () => {
     const oi = document.querySelector(".menuocultor")
     if (oi.style.display == "none" || oi.style.display == "") {
@@ -29,6 +49,16 @@ const ativarmenuoculto = () => {
 }
 
 const fecharmenumobile = () =>{
+    const oi = document.querySelector(".menuocultor")
+    if (oi.style.display == "block") {
+        oi.style.display = "none"
+    }
+    else{
+        oi.style.display = "none"
+    }
+}
+
+const fecharmenuporblog = () =>{
     const oi = document.querySelector(".menuocultor")
     if (oi.style.display == "block") {
         oi.style.display = "none"

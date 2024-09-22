@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgba(255, 228, 196, 0.226);
+}
+.logo{
+    margin: 50px;
+}
+.flexmenuoculto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuocultor{
+    position: absolute;
+    right: 0;
+    background-color: rgb(37, 20, 20);
+    padding: 80px;
+    height: 200vh;
+    z-index: 1;
+    display: none;
+}
+.menuocultor ul{
+   list-style: none;
+}
+.menuocultor li{
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    right: 50px;
+}
+hr{
+    position: relative;
+    right: 50px;
+    margin: 20px 0px;
+}
+.mais{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+.mais2{
+    position: relative;
+    left: 140px;
+    font-size: 30px;
+}
+.menu{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: rgba(235, 222, 222, 0.479);
+    text-decoration: underline;
+}
+.dropdown{
+    display: none;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.dropdown ul{
+  list-style: none;
+}
+.dropdown li{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.dropdown li:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.dropdown a{
+    text-decoration: none;
+    color: red;
+}
+.dropdown2{
+    display: none;
+    background-color: black;
+    text-align: center;
+    margin: 20px 0px;
+}
+.dropdown2 ul{
+  list-style: none;
+}
+.dropdown2 li{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.dropdown2 li:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.dropdown2 a{
+    text-decoration: none;
+    color: red;
+}
+.banner{
+    text-align: center;
+    margin: 50px;
+}
+.menuoculto{
+    display: none;
+}
+.menuoculto img{
+    width: 40px;
+}
+.ancora{
+    position: sticky;
+    top: 0;
+}
+.ancora img{
+    width: 80px;
+    position: absolute;
+    right: 50px;
+}
+.subtitulo{
+    text-align: center;
+    margin: 80px 40px;
+}
+.botaoir{
+    color: white;
+    text-decoration: none;
+}
+.baixarjogos{
+    background-color: rgba(4, 199, 4, 0.438);
+    display: flex;
+    width: 300px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: white;
+    margin: 80px auto;
+    transition: 0.5s;
+}
+.baixarjogos:hover{
+    background-color: rgba(0, 255, 106, 0.301);
+}
+.baixarjogos p{
+    margin: auto;
+}
+.baixarjogos img{
+   width: 40px;
+}
+.maisjogados{
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+.maisjogados p{
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    bottom: 25px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+.flexitens{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.flexitens a{
+    text-shadow: 2px 2px 2px black;
+    color: aqua;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.flexitens a:hover{
+    color: rgba(0, 255, 255, 0.568);
+    text-decoration: underline;
+}
+.ch,.nt20,.nfc{
+    margin: 20px;
+}
+.ch p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.nt20 p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.nfc p{
+    text-align: center;
+    margin: 20px 0px;
+}
+.informacoes{
+    text-align: center;
+}
+.oijogos{
+    text-align: center;
+    margin: 30px 0px;
+}
+.oijogos img{
+    width: 200px;
+    margin: 20px;
+}
+.atualizados{
+    text-align: center;
+}
+.dv{
+    text-align: center;
+}
+.banner2{
+    margin: 50px;
+    text-align: center;
+}
+.flexblog{
+    display: flex;
+}
+.celeblog{
+    width: 400px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+.celeblog p{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.celeblog a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.celeblog a:hover{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+}
+.na10{
+    margin: 20px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.na10 a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.na10 a:hover{
+    color: rgba(255, 255, 255, 0.466);
+    text-decoration: underline;
+}
+.na10 p{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.voltartop{
+    text-align: center;
+}
+.voltartop a{
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.voltartop a:hover{
+    color: rgba(255, 0, 0, 0.514);
+    text-decoration: underline;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+    margin-top: 40px;
+}
+.rodape p{
+    position: absolute;
+    right: 50px;
+}

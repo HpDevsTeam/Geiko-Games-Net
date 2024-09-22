@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Geiko Games - Jogos adultos grátis para android e PC</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="(max-width: 650px)" href="mobile.css">
      <script src="acoes.js"></script>
@@ -12,10 +12,10 @@
     <header>
         <div class="flexmenuoculto">
             <div class="logo">
-                <img src="images/logo/logo_geiko_150.webp" alt="">
+                <img src="images/logo/logo_geiko_150.webp" alt="Logotipo" id="q">
                 </div>
                 <div class="menuoculto">
-                    <img src="images/icons/iconmenu.png" alt="" onclick="ativarmenuoculto()">
+                    <img src="images/icons/iconmenu.png" alt="Icon menu" onclick="ativarmenuoculto()">
                 </div>
         </div>
         <div class="menuocultor" id="s">
@@ -24,20 +24,20 @@
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <hr>
-                    <li><a href="">Jogos</a><span class="mais" onclick="ativarjogos()"><a href="#s">+</a></span></li>
+                    <li><a href="jogos/jogos.html" Ir para jogos>Jogos</a><span class="mais" onclick="ativarjogos()"><a href="#s">+</a></span></li>
                     <div class="jogosmenuoculto">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="jogos/celebrityhunter.html" title="Celebrity Hunter">
                                 Celebrity Hunter
                                 </a>
                             </li>
-                            <li><a href="">Encontros</a></li>
-                            <li><a href="">Musas</a></li>
-                            <li><a href="">Nautilus 05</a></li>
-                            <li><a href=""> Nautilus 10 (NPC)</a></li>
-                            <li><a href="">Nautilus 20</a></li>
-                            <li><a href="">Nova Fantasia Click</a></li>
+                            <li><a href="jogos/encontros.html" title="Encontros">Encontros</a></li>
+                            <li><a href="jogos/musas.html" title="Nautilus 05">Musas</a></li>
+                            <li><a href="jogos/nautilus05.html" title="Nautilus 05">Nautilus 05</a></li>
+                            <li><a href="jogos/nautilus10.html" title="Nautilus 10"> Nautilus 10 (NPC)</a></li>
+                            <li><a href="jogos/nautilus20.html" title="Nautilus 20">Nautilus 20</a></li>
+                            <li><a href="jogos/novafantasiaclick.html" title="Nova Fantasia Click">Nova Fantasia Click</a></li>
                         </ul>
                     </div>
                     <hr>
@@ -53,7 +53,7 @@
                         </ul>
                     </div>
                     <hr>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#blogancora" onclick="fecharmenuporblog()">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -61,11 +61,11 @@
             <nav>
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#" onclick="dropjogosativar()">Jogos</a></li>
                     <li><a href="#">Loja</a></li>
                     <li><a href="#">Carrinho</a></li>
-                    <li><a href="#">Sobre a Geiko</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" onclick="dropjsobreativar()">Sobre a Geiko</a></li>
+                    <li><a href="#blogancora">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -73,30 +73,30 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="jogos/celebrityhunter.html" title="Celebrity Hunter">
                         Celebrity Hunter
                         </a>
                     </li>
-                    <li><a href="">Encontros</a></li>
-                    <li><a href="">Musas</a></li>
-                    <li><a href="">Nautilus 05</a></li>
-                    <li><a href=""> Nautilus 10 (NPC)</a></li>
-                    <li><a href="">Nautilus 20</a></li>
-                    <li><a href="">Nova Fantasia Click</a></li>
+                    <li><a href="jogos/encontros.html" title="Encontros">Encontros</a></li>
+                    <li><a href="jogos/musas.html" title="Musas">Musas</a></li>
+                    <li><a href="jogos/nautilus05.html" title="Nautilus 05">Nautilus 05</a></li>
+                    <li><a href="jogos/nautilus10.html" title="Nautilus 10"> Nautilus 10 (NPC)</a></li>
+                    <li><a href="jogos/nautilus20.html" title="Nautilus 20">Nautilus 20</a></li>
+                    <li><a href="jogos/novafantasiaclick.html" title="Nova Fantasia Click">Nova Fantasia Click</a></li>
                 </ul>
             </nav>
         </div>
         <div class="dropdown2">
             <nav>
                 <ul>
-                    <li><a href="">Sobre a empresa</a></li>
-                    <li><a href="">Como os jogos são criados</a></li>
+                    <li><a href="#">Sobre a empresa</a></li>
+                    <li><a href="#">Como os jogos são criados</a></li>
                   </ul>
             </nav>
         </div>
         <div class="banner">
-            <a href="">
-            <img src="images/banner/site_banner.webp" alt="">
+            <a href="jogos/jogos.html" title="Ir para jogos">
+            <img src="images/banner/site_banner.webp" alt="Banner do site">
             </a>
             </div>
     </header>
@@ -106,9 +106,9 @@
                 Baixe jogos adultos 🔞 de qualidade, com cenas explícitas, personagens reais, histórias maduras e escolhas que definem o enredo! Viva suas fantasias 🥵
             </h4>
         </div>
-        <a href="" class="botaoir">
+        <a href="jogos/jogos.html" title="Ir para jogos" class="botaoir">
             <div class="baixarjogos">
-                <img src="images/icons/iconfogo.png" alt="">
+                <img src="images/icons/iconfogo.png" alt="Icon fogo">
                 <p>
                     Baixe nossos jogos adultos grátis 🔞
                 </p>
@@ -121,27 +121,27 @@
         </div>
         <div class="flexitens">
             <div class="ch">
-             <img src="images/maisjogosimages/celebrityhunter1.webp" alt="">
+             <img src="images/maisjogosimages/celebrityhunter1.webp" alt="CelebrityHunter">
             <p>
-                Celebrity Hunter
+                <a href="jogos/celebrityhunter.html" title="Celebrity Hunter">Celebrity Hunter</a>
             </p>
             <p>
                 Drama • 600 MB
             </p>
             </div>
             <div class="nt20">
-            <img src="images/maisjogosimages/nautilus20.webp" alt="">
+            <img src="images/maisjogosimages/nautilus20.webp"alt="Nautilus20">
             <p>
-                Nautilus 20
+                <a href="jogos/nautilus20.html" title="Nautilus 20">Nautilus 20</a>
             </p>
             <p>
                 Ficção • 135 MB
             </p>
         </div>
             <div class="nfc">
-          <img src="images/maisjogosimages/novafantasiaclick.webp" alt="">
+          <img src="images/maisjogosimages/novafantasiaclick.webp" alt="Nova NovaFantasiaClick">
           <p>
-            NFC +18
+            <a href="jogos/novafantasiaclick.html" title="Nova Fantasia Click">NFC +18</a>
           </p>    
           <p>
             Fantasia • 110MB
@@ -159,21 +159,33 @@
             </h4>
         </div>
         <div class="oijogos">
-            <img src="images/oitojogos/ch.webp" alt="">
-            <img src="images/oitojogos/en.webp" alt="">
-            <img src="images/oitojogos/nfc.jpg" alt="">
-            <img src="images/oitojogos/nt05.jpg" alt="">
-            <img src="images/oitojogos/nt10.jpg" alt="">
-            <img src="images/oitojogos/nt20.webp" alt="">
+            <a href="jogos/celebrityhunter.html">
+            <img src="images/oitojogos/ch.webp" title="Celebrity Hunter" alt="CelebrityHunter">
+            </a>
+            <a href="jogos/encontros.html">
+            <img src="images/oitojogos/en.webp" title="Encontros" alt="Encontros">
+            </a>
+            <a href="jogos/novafantasiaclick.html">
+            <img src="images/oitojogos/nfc.jpg" title="Nova Fantasia Click" alt="NovaFantasiaClick">
+            </a>
+            <a href="jogos/nautilus05.html">
+            <img src="images/oitojogos/nt05.jpg" title="Nautilus 05" alt="Nautilus05">
+            </a>
+            <a href="jogos/nautilus10.html">
+            <img src="images/oitojogos/nt10.jpg" title="Nautilus 10" alt="Nautilus10">
+            </a>
+            <a href="jogos/nautilus20.html" title="Nautilus 20">
+            <img src="images/oitojogos/nt20.webp" alt="Nautilus20">
+            </a>
         </div>
         <div class="atualizados">
             <h4>
                 🔞 8 jogos desde 2018 🎮 3.500.000+ downloads
             </h4>
         </div>
-        <a href="" class="botaoir">
+        <a href="jogos/jogos.html" title="Ir para jogos" class="botaoir">
             <div class="baixarjogos">
-                <img src="images/icons/iconfogo.png" alt="">
+                <img src="images/icons/iconfogo.png" alt="Iconi de fogo">
                 <p>
                     Veja nossos jogos adultos 🔞
                 </p>
@@ -192,11 +204,11 @@
         <div class="banner2">
             <img src="images/banner2/geiko_banner2_960.webp" alt="">
         </div>
-        <a href="" class="botaoir">
+        <a href="#" class="botaoir">
             <div class="baixarjogos">
-                <img src="images/icons/iconcafe.png" alt="">
+                <img src="images/icons/iconcafe.png" alt="Saiba mais">
                 <p>
-                    Saiba mais sobre a Geiko
+                    Saiba mais sobre a Team Hp Infinit
                 </p>
             </div>
         </a>
@@ -206,25 +218,28 @@
                 Novidades do Blog 📝
             </p>
         </div>
-        <div class="flexblog">
+        <div class="flexblog" id="blogancora">
             <div class="celeblog">
-               <img src="images/blog/site_ch_720-607x405.webp" alt="">
+               <img src="images/blog/site_ch_720-607x405.webp" alt="Blog Celebrity Hunter">
              <h2>
                 Visual novels adultas gratuitas em português (2023) - Baixe Aqui
              </h2>
              <p>
-                Veja tudo >
+                <a href="#">Veja tudo ></a>
              </p>
             </div>
             <div class="na10">
-             <img src="images/blog/nt10.jpg" alt="">
+             <img src="images/blog/nt10.jpg" alt="Blog nautilus 10">
              <h2>
                 VASSILI, o primeiro mapa de Projeto Cyberpunk
              </h2>
              <p>
-                Veja tudo >
+                <a href="#">Veja tudo ></a>
              </p>
             </div>
+        </div>
+        <div class="voltartop">
+            <a href="#q">Voltar ao topo da pagina</a>
         </div>
     </main>
     <footer>
